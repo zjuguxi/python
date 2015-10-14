@@ -2,5 +2,9 @@
     "plugins": [
         "disqus"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "disqus":{
+            "shortname": "hardwaytopython"
+        }
+    }
 }
