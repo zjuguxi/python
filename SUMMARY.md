@@ -1,8 +1,8 @@
 # Summary
 10/14/2015 2:25:51 PM 
-
-* [第0周第4天]（section/README.md）
-	* [example 1](section1/example1.md)
-	* [example 2](section1/example2.md)
-* [section 2](section2/README.md)
-	* [example 1](section2/example1.md)
+* [前言]（python/README.md）
+* **第0周**
+	* [第4天](python/Week0/W0D4.md)
+	* [第5天](python/Week0/W0D5.md)
+* **第1周**
+	* [第0天](python/Week1/W1D0.md)
