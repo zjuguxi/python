@@ -4,3 +4,4 @@
   + [Github使用](week/github.md)
   + [Gitbook配置](week/gitbook.md)
   + [Disqus插件安装](week/disqus.md)
+  + [第二节公开课](week/disqus.md)
