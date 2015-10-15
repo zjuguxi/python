@@ -28,6 +28,7 @@
 1. 创建一个book.json文档，放在根目录下。
 
     这里有个小方法，在Gitbook的电子书编辑页面，点击**Add Plugin**，Gitbook会自动生成一个book.json，这样无需手动添加了。
+
 ![](http://i.imgur.com/dXTDXd4.jpg)
 
 2. 将[这里](https://github.com/liangchaob/itdmb-python/blob/master/book.json)的代码复制到你的book.json中，并修改中间配置信息为你自己的。
