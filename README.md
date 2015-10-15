@@ -1,2 +1,3 @@
 # Readme
-* This is a  readme file. I'll tell you why I learn python and how far do I get.It's a hard way to python.
+这里是我个人学习Python的记录。
+不敢叫什么私人教程，只能说将走过的一些路、经历的那些弯路分享给大家。如果能解决你的一两个问题，那就是这些记录的最大意义。
