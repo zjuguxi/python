@@ -1,6 +1,6 @@
 # Summary
-- [我学Python的缘由](python/start.md)
-- [配置环境](python/week0/setup.md) 
-  + [Github使用](python/week0/github.md)
-  + [Gitbook配置](python/week0/gitbook.md)
-  + [Disqus插件安装](python/week0/disqus.md)
+- [我学Python的缘由](week0/start.md)
+- [配置环境](week0/setup.md) 
+  + [Github使用](week0/github.md)
+  + [Gitbook配置](week0/gitbook.md)
+  + [Disqus插件安装](week0/disqus.md)
