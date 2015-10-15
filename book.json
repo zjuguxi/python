@@ -1,8 +1,11 @@
-{
+{"title": "hardwaytopython",
+    "version": "15.10.14",
+    "description": "python",
+    "author": "zjuguxi <zjuguxi@gmail.com>",
     "plugins": ["disqus"],
     "pluginsConfig": {
         "disqus": {
             "shortName": "hardwaytopython"
         }
-    }  
+    } 
 }
