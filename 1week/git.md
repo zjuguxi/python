@@ -76,4 +76,6 @@ eval "$(ssh-agent)"
 > Git版本2.6.1
 
 ![ssh agent](http://i.imgur.com/lEd52uW.jpg)
-
+### 遗留问题
+每次将本地代码推送至Github的远程仓库时，都问我一遍密码，目前还未解决，只能每次push都输入一遍了。
+![ask password](http://i.imgur.com/E1Fuw65.jpg)
