@@ -31,3 +31,11 @@ git reflog # 查看命令历史，以便前进到未来的某个版本
 git checkout -- file # 丢弃工作区的修改
 git reset HEAD file # 丢弃缓存区的修改
 ```
+## 删除文件
+```
+rm file # 删除工作区中的该文件
+git rm file # 删除版本库中的该文件
+git checkout -- file # 用版本库的版本恢复工作区的版本
+```
+**上图是我理解的Git命令中几个关键动作的逻辑，不知是否正确，请指教！**
+![git reset](http://i.imgur.com/GWEN4yg.jpg)
