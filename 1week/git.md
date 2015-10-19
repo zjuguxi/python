@@ -28,5 +28,6 @@ git reflog # 查看命令历史，以便前进到未来的某个版本
 ```
 ## 撤销修改
 ```
-git checkout -- file # 撤销最近一次add或commit时的状态
+git checkout -- file # 丢弃工作区的修改
+git reset HEAD file # 丢弃缓存区的修改
 ```
