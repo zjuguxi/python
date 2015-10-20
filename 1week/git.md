@@ -40,7 +40,7 @@ git checkout -- file # 用版本库的版本恢复工作区的版本
 **上图是我理解的Git命令中几个关键动作的逻辑，不知是否正确，请指教！**
 ![git reset](http://i.imgur.com/GWEN4yg.jpg)
 
-## 链接远程仓库
+## 配置SSH
 用Git链接Github远程仓库，需要首先配置ssh。我OS X与Win系统双持，因此两个系统都需要单独配置ssh。
 [Mac的SSH配制方法](https://help.github.com/articles/generating-ssh-keys/#platform-mac)
 [PC的SSH配制方法](https://help.github.com/articles/generating-ssh-keys/#platform-windows)
@@ -80,6 +80,62 @@ eval "$(ssh-agent)"
 每次将本地代码推送至Github的远程仓库时，都问我一遍密码，目前还未解决，只能每次push都输入一遍了。
 ![ask password](http://i.imgur.com/E1Fuw65.jpg)
 
+## 添加、克隆远程库
+```
+git remote add origin git@github.com:zjuguxi/python.git # 将本地仓库与远程仓库关联起来
+git push origin master 将本地代码推送至远程库
+git clone git@github.com:xxx/yyy.git # 从远程仓库克隆到本地
+
+```
+## 管理分支
+```
+git branch # 查看分支
+git branch name # 创建分支
+git checkout name # 切换分支
+git checkout -b name # 创建+切换分支
+git merge name # 合并某分支到当前分支
+git branch -d name # 删除分支
+```
+
+## gitignore
+在`.gitignore`文件中配置在工作目录中、但不会被提交的文件
+[Python的gitignore](https://github.com/zjuguxi/gitignore/blob/master/Python.gitignore)
+
+## 配置别名
+Git命令可以用别名来替代
+```
+git config --global alias.st stasus # 用st代替status
+```
+当前用户的Git配置文件在主目录下的一个隐藏文件`.gitconfig`中。
+配置别名可以直接修改这个文件，如果出错，可以删掉文件重新通过命令行配置。
+```
+$ cat .gitconfig
+[alias]
+    co = checkout
+    ci = commit
+    br = branch
+    st = status
+[user]
+    name = Your Name
+    email = your@email.com
+```
+## 略过的部分
+我通过[廖雪峰的Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)进行学习，虽然已经是精简教程，但是仍然有大量（对我来说）平时用不到的内容，以下为我略过的部分。有兴趣可自行查考。
+- 分支管理
+	- 解决冲突
+	- 分支管理策略
+	- Bug分支
+	- Feature分支
+	- 多人写作
+- 标签管理
+	- 创建标签
+	- 操作标签
+- 搭建Git服务器
+
+
 ## 朱老师推荐的Git简明教程
+这里再推荐一点补充材料，由朱作君老师推荐的一些更为简练的教程，确实不错，有兴趣可以看一看
+
 http://rogerdudler.github.io/git-guide/index.zh.html
+
 http://yedingding.com/2013/09/11/practical-git-flow-for-startups.html
