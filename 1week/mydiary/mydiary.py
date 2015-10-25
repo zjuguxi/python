@@ -8,7 +8,7 @@ script, diary = argv
 target = open(diary, 'w')
 # 在line1:后面输入内容
 
-line1 = raw_input("line1:\n")
+line1 = raw_input("line1:")
 # 写入diary
 target.write(line1)
 # 打印Done表示任务完成
