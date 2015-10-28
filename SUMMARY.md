@@ -8,3 +8,4 @@
   + [加分作业](week/bonus.md)
 - [命令行]
   + [Git命令行](1week/git.md)
+  + [1week作业：我的日记](1week/mydiary.md)
