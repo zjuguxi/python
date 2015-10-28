@@ -20,3 +20,4 @@ target1 = open(diary, "r")
 print target1
 
 target1.close()
+target.close()
