@@ -6,6 +6,7 @@
   + [Disqus插件安装](week/disqus.md)
   + [第二节公开课](week/class2nd.md)
   + [加分作业](week/bonus.md)
-- [命令行]
+- [开始编程]
   + [Git命令行](1week/git.md)
   + [1week作业：我的日记](1week/mydiary.md)
+  + 
