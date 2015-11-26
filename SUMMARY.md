@@ -9,4 +9,4 @@
 - [开始编程]
   + [Git命令行](1week/git.md)
   + [1week作业：我的日记](1week/mydiary.md)
-  + [插一句](2week/crap.md)
+  + [插一句](2week/cr ap.md)
