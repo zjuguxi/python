@@ -57,5 +57,49 @@ Requirement already up-to-date: pip in /Library/Frameworks/Python.framework/Vers
 
 在搜索 Mac 安装distribute过程中，看到[这篇文章](http://blog.csdn.net/ichuzhen/article/details/24640299)讲解了一下几个包管理工具，发现distribute似乎过时了（最新版本0.7.3更新日期是2013年7月5日），现在老司机都用setuptools，于是擅自做主，放弃distribute，改安装setuptools。
 
-## 安装setuptools
+## 安装setuptools/nose/virtualenv
+
+此时机智的学会了用pip查看已安装的包：
+
+``` python
+$ pip list
+distribute (0.7.3)
+nose (1.3.7)
+pip (7.1.2)
+projectname (0.1)
+setuptools (0.6rc11)
+virtualenv (13.1.2)
+wheel (0.26.0)
+```
+
+……
+
+操，已经都你妈有了，而我也不知道是怎么有的……
+
+前述文章提到安装pip会自动安装setuptools，不过我真的不想去追究细节了。反正都有了，就行了。
+
+反正就是一直处于『我也不知道怎么回事反正就这个鸟样』的状态。
+
+懒得管了，能用就行。
+
+## nose问题
+
+承接上文，然而还是不能用。
+
+在ex42设置的projects文件夹内测试：
+
+``` python
+
+$ cd skeleton
+
+$ nosetests
+
+-bash: nosetests: command not found
+```
+
+在[知乎](https://www.zhihu.com/question/20729193)上看到个兄弟也有这个问题，他最终解决了问题，问题出在nose安装在了用户目录下而非根目录，所以终端不能调用命令。但我依然不知道如何解决——怎样才能安装到根目录呢？那我之前的安装到底是否算安装成功了呢？
+
+在交互模式下输入`import nose`，系统未报错，这是否说明我安装位置正确？
+
+如果正确，我的问题到底出在哪里呢？非常困惑。
 
