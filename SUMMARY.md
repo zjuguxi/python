@@ -10,13 +10,17 @@
   + [第二节公开课](week/class2nd.md)
   + [加分作业](week/bonus.md)
   
-- [开始编程]
+- [第一周]
   
   + [Git命令行](1week/git.md)
   + [1week作业：我的日记](1week/mydiary.md)
+  
+
+- [第二周]
   + [插一句](2week/cr ap.md)
   + [2week作业：用Tkinter实现GUI](2week/GUI.md)
-  
+  + [安装pip及其他包](2week/pip.md)
+
 - [零碎的知识点](fragments.md)
   
   ​
