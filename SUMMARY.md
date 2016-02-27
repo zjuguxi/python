@@ -21,6 +21,8 @@
   + [2week作业：用Tkinter实现GUI](2week/GUI.md)
   + [安装pip及其他包](2week/pip.md)
 
+- [Automate the boring stuff with Python]
+  + [一刷](automate/1st_round.md)
 - [零碎的知识点](fragments.md)
   
   ​
