@@ -24,5 +24,3 @@
 - [Automate the boring stuff with Python]
   + [一刷](automate/1st_round.md)
 - [零碎的知识点](fragments.md)
-  
-  ​

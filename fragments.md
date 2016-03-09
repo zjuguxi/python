@@ -10,3 +10,15 @@
     city_found = cities['_find'](cities, state)
      # 从字典cities中提取'_find'的键值即函数find_city，函数参数是(cities, state)
 	
+# How to become a proficient Python programmer
+http://blog.dispatched.ch/2011/06/12/how-to-become-a-proficient-python-programmer/
+# Welcome to Python for you and me
+http://pymbook.readthedocs.org/en/latest/
+# Real Python
+https://realpython.com
+# Full Stack Python 
+http://www.fullstackpython.com/best-python-resources.html
+# 数据科学中的R和Python
+http://xccds1977.blogspot.jp
+# Python Tutorials
+http://www.primalsecurity.net/tutorials/python-tutorials/
