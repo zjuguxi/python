@@ -23,4 +23,5 @@
 
 - [Automate the boring stuff with Python]
   + [一刷](automate/1st_round.md)
+  + [《Automate》学习心得](automate/Automate_point.md)
 - [零碎的知识点](fragments.md)
